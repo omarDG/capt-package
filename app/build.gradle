@@ -31,8 +31,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation project(':cimr')
+    //implementation project(':cimr')
     //implementation 'com.github.omarDG:cimr-library:0.1.5'
+    implementation 'com.github.omarDG:capt-package:0.1.5'
     //implementation 'com.github.omarDG:ci-pass:0.1.4'
 
 
