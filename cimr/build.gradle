@@ -19,7 +19,7 @@ afterEvaluate {
 }
 android {
 
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         minSdkVersion 23
         versionCode 1
@@ -46,7 +46,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
     /*implementation 'com.regula.documentreader.mrz:core:4.0.89650'
     implementation('com.regula.documentreader:api:4.0.90953') {
         transitive = true;

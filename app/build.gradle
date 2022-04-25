@@ -33,7 +33,7 @@ dependencies {
 
     implementation project(':cimr')
     //implementation 'com.github.omarDG:cimr-library:0.1.5'
-   // implementation 'com.github.omarDG:capt-package:0.1.5'
+    //implementation 'com.github.omarDG:capt-package:0.1.8'
     //implementation 'com.github.omarDG:ci-pass:0.1.4'
 
 
