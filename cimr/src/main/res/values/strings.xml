@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">cimr</string>
+    <string name="access_data">Accès aux données</string>
+    <string name="waiting_camera">Veuillez patienter...</string>
+    <string name="read_infos">Lecture des informations</string>
+    <string name="read_photo">Traitement de la photo</string>
+    <string name="lbl_secondstep">Merci de lire le passeport (comme indiqué sur la figure ci-dessous)</string>
+    <string name="initializing">En cours</string>
+    <string name="initializing_failed">erreur lors de l\'initialisation</string>
+    <string name="scan_cancelled">Opération annulée</string>
+    <string name="doc_reading_error">Erreur lors du traitement du document</string>
+    <string name="read_chip_failed">La puce du passeport n\'a pas pu être lue, merci de réessayer</string>
+    <string name="nfc_unavailable">NFC n\'est pas disponible.</string>
+    <string name="nfc_deactivated">Veuillez activer le NFC et réessayer.</string>
+</resources>

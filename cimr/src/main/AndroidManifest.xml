@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gemadec.cimr">
+
+    <uses-permission android:name="android.permission.NFC"  />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application>
+        <activity android:name=".activities.PuceActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activities.ScanDocumentActivity" />
+        <activity android:name=".activities.TraitementActivity"></activity>
+    </application>
+
+</manifest>
