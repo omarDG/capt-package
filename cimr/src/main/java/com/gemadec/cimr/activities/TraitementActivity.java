@@ -105,15 +105,15 @@ public class TraitementActivity extends AppCompatActivity {
                 Log.i("SecondstepActivity", "num_pass : " + passnum);
                 BACKeySpec bacKey = new BACKey(intentpuce.getStringExtra("pass_num"), DateUtil.GetDateFormat(intentpuce.getStringExtra("birthdate"))
                         , DateUtil.GetDateFormat(intentpuce.getStringExtra("expirydate")));
-                ps.doBAC(bacKey);
-                /*if (!doPace(ps, bacKey)) {
+                //ps.doBAC(bacKey);
+                if (!doPace(ps, bacKey)) {
                     Log.e("TraitementActi", "doPace false");
                     ps.sendSelectApplet(false);
                     ps.doBAC(bacKey);
                 }
                 else{
                     Log.e("TraitementActi", "doPace success");
-                }*/
+                }
                 /*
                  * Region for active authentication*/
                 String digestAlgorithm = "SHA1";
