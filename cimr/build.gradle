@@ -1,13 +1,25 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 
 group = 'com.github.omarDG'
-version = '0.1.7'
+version = '0.1.8'
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+
+                groupId = 'com.github.omarDG'
+                artifactId = 'capt-package'
+                version = '0.1.8'
+            }
+        }
+    }
+}
 android {
+
     compileSdkVersion 26
-
-
-
     defaultConfig {
         minSdkVersion 23
         versionCode 1
