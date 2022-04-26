@@ -11,13 +11,15 @@ import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.nfc.tech.NfcF;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.gemadec.cimr.R;
 

@@ -9,8 +9,7 @@ import android.nfc.Tag;
 import android.nfc.tech.IsoDep;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -18,9 +17,11 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.gemadec.cimr.R;
-import com.gemadec.cimr.Utils.DateUtil;
-import com.gemadec.cimr.Utils.ImageUtil;
+import com.gemadec.cimr.Utils.*;
 
 import net.sf.scuba.smartcards.CardService;
 import net.sf.scuba.smartcards.CardServiceException;
@@ -161,6 +162,7 @@ public class TraitementActivity extends AppCompatActivity {
                             Log.i("SecondstepActivity", "readFully success : ");
                             InputStream inputStream = new ByteArrayInputStream(buffer, 0, imageLength);
                             Log.i("SecondstepActivity", "InputStream success : ");
+
                             mybitmap = ImageUtil.decodeImage(
                                     TraitementActivity.this, faceImageInfo.getMimeType(), inputStream);
                             Log.i("SecondstepActivity", "Width image : " + mybitmap.getWidth());

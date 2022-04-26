@@ -4,15 +4,17 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.gemadec.cimr.R;
-import com.gemadec.cimr.Utils.ImageUtil;
+
 import com.gemadec.cimr.classes.CinDocInfo;
 import com.regula.documentreader.api.DocumentReader;
 import com.regula.documentreader.api.completions.IDocumentReaderCompletion;

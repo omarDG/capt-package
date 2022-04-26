@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jnieh/Downloads/cimr-library-master/cimr-library-master/app/src/main/res/layout/activity_main.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/jnieh/Downloads/cimr-library-master/cimr-library-master/cimr/src/main/res/layout/activity_puce.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/jnieh/Downloads/cimr-library-master/cimr-library-master/cimr/src/main/res/layout/activity_scan_document.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/jnieh/Downloads/cimr-library-master/cimr-library-master/cimr/src/main/res/layout/activity_traitement.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/jnieh/Downloads/cimr-library-master/cimr-library-master/cimr/src/main/res/layout/reg_powered.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/jnieh/Downloads/cimr-library-master/cimr-library-master/cimr/src/main/res/layout/simple_dialog.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownProjectSettings" wasCopied="true">
     <PreviewSettings splitEditorLayout="SPLIT" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.25" maxImageWidth="0" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizePreviewPosition="true" highlightPreviewType="NONE" highlightFadeOut="5" highlightOnTyping="true" synchronizeSourcePosition="true" verticallyAlignSourceAndPreviewSyncPosition="true" showSearchHighlightsInPreview="false" showSelectionInPreview="true" openRemoteLinks="true" replaceUnicodeEmoji="false" lastLayoutSetsDefault="false">
       <PanelProvider>

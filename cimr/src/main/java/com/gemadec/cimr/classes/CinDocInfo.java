@@ -38,6 +38,19 @@ public class CinDocInfo implements Parcelable {
         expirydate = in.readString();
     }
 
+
+    public static final Creator<CinDocInfo> CREATOR = new Creator<CinDocInfo>() {
+        @Override
+        public CinDocInfo createFromParcel(Parcel in) {
+            return new CinDocInfo(in);
+        }
+
+        @Override
+        public CinDocInfo[] newArray(int size) {
+            return new CinDocInfo[size];
+        }
+    };
+
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(passnumber);
@@ -56,18 +69,7 @@ public class CinDocInfo implements Parcelable {
     public int describeContents() {
         return 0;
     }
-
-    public static final Creator<CinDocInfo> CREATOR = new Creator<CinDocInfo>() {
-        @Override
-        public CinDocInfo createFromParcel(Parcel in) {
-            return new CinDocInfo(in);
-        }
-
-        @Override
-        public CinDocInfo[] newArray(int size) {
-            return new CinDocInfo[size];
-        }
-    };
+;
 
     public String getFirstName() {
         return firstName;
