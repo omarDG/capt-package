@@ -5,18 +5,30 @@ apply plugin: 'maven-publish'
 group = 'com.github.omarDG'
 version = '0.1.8'
 afterEvaluate {
+    android.libraryVariants.each { variant ->
+        // Only consider release
+        if (variant.buildType.name != "release") { return }
+        publishing.publications.create(variant.name, MavenPublication) {
+            from components.findByName(variant.name)
+            groupId = 'com.github.omarDG'
+            artifactId = 'capt-package'
+            version = '1.0.0'
+        }
+    }
+}
+/*afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
-
+                from components.release
                 groupId = 'com.github.omarDG'
                 artifactId = 'capt-package'
                 version = '1.0.0'
             }
         }
     }
-}
+}*/
 android {
 
     compileSdkVersion 28
